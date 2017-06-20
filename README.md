@@ -11,7 +11,7 @@ npm i bij-sdk --save
 ```
 
 ```HTML
-<script src="https://unpkg.com/bij-sdk/"></script>
+<script src="https://unpkg.com/bij-sdk"></script>
 ```
 
 ## Usage

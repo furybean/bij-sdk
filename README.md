@@ -17,10 +17,10 @@ npm i bij-sdk --save
 ## Usage
 
 ```JavaScript
-  BIJ.init({
-    jumpTo: 'error.html',
-    maxJump: 3
-  });
+BIJ.init({
+  jumpTo: 'error.html',
+  maxJump: 3
+});
 ```
 
 ## Options
@@ -29,6 +29,8 @@ BIJ has two modes of breaking infinite jump:
  
 - unload: notify user when this page is jumping. **This mode won't work in Firefox**
 - jump: jump to another page on detecting infinite jump.
+
+Method BIJ.init's options list below:
 
 - breakMode: optional value: 'jump', 'unload', default value is jump.
 - jumpTo: BIJ will jump to this page on detecting infinite jump.

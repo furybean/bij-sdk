@@ -18,7 +18,7 @@ export default {
     const maxJump = options.maxJump || 5;
     const source = options.source || location.href;
 
-    const record = storage.inc(source, document.referrer, duration);
+    const record = storage.inc(source, document.referrer, maxDuration);
 
     if (breakMode === 'unload') {
       bindEvent(record, maxDuration, maxJump);
